@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <script src="https://kit.fontawesome.com/63a5d622be.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div id="display">0</div>
+    <div class="buttons">
+      <button class="button opr" onclick="buttonClicked('CLR')">CLR</button>
+      <button class="button opr" onclick="buttonClicked('DEL')"><i class="fa-solid fa-delete-left"></i></button>
+      <button class="button opr" onclick="buttonClicked('%')">%</button>
+      <button class="button opr" onclick="buttonClicked('/')">/</button>
+      <button class="button" onclick="buttonClicked('7')">7</button>
+      <button class="button" onclick="buttonClicked('8')">8</button>
+      <button class="button" onclick="buttonClicked('9')">9</button>
+      <button class="button opr" onclick="buttonClicked('*')">*</button>
+      <button class="button" onclick="buttonClicked('4')">4</button>
+      <button class="button" onclick="buttonClicked('5')">5</button>
+      <button class="button" onclick="buttonClicked('6')">6</button>
+      <button class="button opr" onclick="buttonClicked('-')">-</button>
+      <button class="button" onclick="buttonClicked('1')">1</button>
+      <button class="button" onclick="buttonClicked('2')">2</button>
+      <button class="button" onclick="buttonClicked('3')">3</button>
+      <button class="button opr" onclick="buttonClicked('+')">+</button>
+      <button class="button" onclick="buttonClicked('0')">0</button>
+      <button class="button" onclick="buttonClicked('00')">00</button>
+      <button class="button " onclick="buttonClicked('.')">.</button>
+      <button class="button opr" onclick="buttonClicked('=')">=</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
